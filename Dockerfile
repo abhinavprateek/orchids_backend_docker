@@ -6,7 +6,7 @@ RUN apt-get install -y git nano vim tmux screen net-tools
 WORKDIR /lets_eduvate
 
 COPY . ./
-pip3 uninstall tensorflow
+RUN pip3 uninstall tensorflow
 
 RUN /bin/bash install_requirements.sh
 
