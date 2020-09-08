@@ -10,5 +10,4 @@ RUN pip3 uninstall tensorflow
 
 RUN /bin/bash install_requirements.sh
 
-EXPOSE 7000
 
