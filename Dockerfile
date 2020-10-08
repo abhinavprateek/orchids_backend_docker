@@ -1,6 +1,6 @@
 FROM python:3.6.12-slim-stretch
 RUN apt-get update
-RUN apt-get install -y git nano vim tmux screen net-tools
+RUN apt-get install -y git nano vim tmux screen net-tools python3-poppler-qt4 poppler-utils
 RUN pip install django-celery-beat
 
 
