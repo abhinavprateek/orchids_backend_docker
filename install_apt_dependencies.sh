@@ -9,7 +9,7 @@ dpkg-reconfigure --frontend noninteractive tzdata
 apt-get install -y libmysqlclient-dev
 apt-get install -y python-dev
 apt install -y cmake
-apt-get install -y python3.7-dev default-libmysqlclient-dev libpython3-dev
+apt-get install -y python3.7-dev default-libmysqlclient-dev libpython3-dev python3-poppler-qt4 poppler-utils
 apt-get install -y libpq-dev python-dev
 apt-get install -y build-essential cmake pkg-config
 apt-get install -y libx11-dev libatlas-base-dev
